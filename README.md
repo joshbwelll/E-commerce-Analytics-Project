@@ -13,7 +13,7 @@ The business team wants a reliable reporting model to track customer orders, rev
 ---
 
 ## 📂 Project Structure
-my_ecommerce_project/
+<pre> ```plaintext my_ecommerce_project/
 ├── dbt_project.yml
 ├── models/
 │ ├── staging/
@@ -27,7 +27,7 @@ my_ecommerce_project/
 │ ├── customers.csv
 │ ├── orders.csv
 │ └── products.csv
-└── README.md
+└── README.md ``` </pre>
 
 ---
 
