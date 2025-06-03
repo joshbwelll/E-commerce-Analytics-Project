@@ -55,6 +55,10 @@ Created `models/marts/order_summary.sql`:
 - Used `schema.yml` to add:
   - `not_null`, `unique`, `relationships` tests
   - Column-level descriptions
+  - schema visual:
+    
+  <img width="964" alt="image" src="https://github.com/user-attachments/assets/f7943522-88a9-46ee-b562-8cfd63c46519" />
+
 
 ### 5. Jinja & Materializations
 - Used `{{ ref() }}` for model chaining
@@ -86,7 +90,8 @@ Created `models/marts/order_summary.sql`:
     cte.customer_id,
     p.category,
     cte.first_name
-```
+  ```
+
 ---
 
 ## 📊 Example Output
