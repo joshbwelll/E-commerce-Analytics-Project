@@ -31,7 +31,7 @@ The business team wants a reliable reporting model to track customer orders, rev
 
 ---
 
-## ✅ Tasks Completed
+## ✅ Dbt Stages Completed
 
 ### 1. Seed Data
 - Loaded `customers.csv`, `orders.csv`, and `products.csv` using `dbt seed`.
@@ -55,7 +55,7 @@ Created `models/marts/order_summary.sql`:
 - Used `schema.yml` to add:
   - `not_null`, `unique`, `relationships` tests
   - Column-level descriptions
-  - schema visual:
+  - Schema visual:
     
   <img width="964" alt="image" src="https://github.com/user-attachments/assets/f7943522-88a9-46ee-b562-8cfd63c46519" />
 
@@ -94,7 +94,7 @@ Created `models/marts/order_summary.sql`:
 
 ---
 
-## 📊 Result Table Output
+## Result
 
 | customer_id | first_name | category   | total_orders | total_revenue | avg_order_value |
 |-------------|------------|------------|--------------|----------------|------------------|
