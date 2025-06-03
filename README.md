@@ -13,7 +13,7 @@ The business team wants a reliable reporting model to track customer orders, rev
 ---
 
 ## 📂 Project Structure
-<pre> ```plaintext my_ecommerce_project/
+<pre> ```my_ecommerce_project/
 ├── dbt_project.yml
 ├── models/
 │ ├── staging/
