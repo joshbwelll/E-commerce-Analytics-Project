@@ -56,14 +56,14 @@ Created `models/marts/order_summary.sql`:
   - `not_null`, `unique`, `relationships` tests
   - Column-level descriptions
   - Schema visual:
-    
+  
   <img width="964" alt="image" src="https://github.com/user-attachments/assets/f7943522-88a9-46ee-b562-8cfd63c46519" />
 
 
 ### 5. Jinja & Materializations
 - Used `{{ ref() }}` for model chaining
 - Materialized `order_summary` as a table
-- My jinja SQL code:
+- **My jinja SQL code**:
   ```sql
   WITH cte AS(SELECT
     c.customer_id,
