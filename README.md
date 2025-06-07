@@ -8,7 +8,7 @@ The business team wants a reliable reporting model to track customer orders, rev
 - **dbt-core**
 - **DuckDB**
 - **Visual Studio Code**
-- Seed data from CSV files
+- **Seed data from CSV files**
 
 ---
 
@@ -31,7 +31,7 @@ The business team wants a reliable reporting model to track customer orders, rev
 
 ---
 
-## ✅ Dbt Stages Completed
+## ✅ Dbt Workflow: From Initialization to Materialization  
 
 ### 1. Seed Data
 - Loaded `customers.csv`, `orders.csv`, and `products.csv` using `dbt seed`.
@@ -52,7 +52,7 @@ Created `models/marts/order_summary.sql`:
 - Grouped by `customer_id` and `category`
 
 ### 4. Schema & Tests
-- Used `schema.yml` to add:
+- Defined tests and documentation in `schema.yml`:
   - `not_null`, `unique`, `relationships` tests
   - Column-level descriptions
   - Schema visual:
