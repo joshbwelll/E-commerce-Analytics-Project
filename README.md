@@ -53,7 +53,7 @@ Created `models/marts/order_summary.sql`:
 
 ### 4. Schema & Tests
 - Defined tests and documentation in `schema.yml`:
-  - `not_null`, `unique`, `relationships` tests
+  - Used data_tests: `not_null`, `unique`, `relationships`
   - Column-level descriptions
   - Schema visual:
   
